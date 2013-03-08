@@ -1,10 +1,12 @@
 import sys
 
-sum=0
-n=0
+sum = 0
+n = 0
 
-for num in sys.stdin:
-	sum+=float(num)
-	n+=1
+file_name = 'data_2.txt'
+for num in open('file_name'):
+	sum+ = float(num)
+	n+ = 1
+
 
 print sum/n
