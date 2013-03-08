@@ -10,3 +10,5 @@ for num in open('file_name'):
 
 
 print sum/n
+
+print sum/n
