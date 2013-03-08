@@ -1,12 +1,10 @@
 import sys
 
-def mean (numbers):
-	sum=0
-	for x in numbers:
-		sum+=x
-	return float(sum)/len(numbers)
+sum=0
+n=0
 
-numbers = []
-for line in sys.stdin:
-	numbers.append(int(line))
-print mean(numbers)
+for num in sys.stdin:
+	sum+=float(sum)
+	n+=1
+
+print sum/n
